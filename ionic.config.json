@@ -1,0 +1,7 @@
+{
+  "name": "RMdoctorsito",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
