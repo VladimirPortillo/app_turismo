@@ -1,6 +1,21 @@
+.contenedor-centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulo{
+  width: 100%;
+  text-align: center;
+}
+.titulo p{
+  font-size: x-large;
+  font-weight: bold;
+}
+.menu{
+  background: white;
+}
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -25,3 +40,20 @@
 #container a {
   text-decoration: none;
 }
+
+ion-content {
+  --background: white;
+  padding: 5px;
+}
+// modal
+.ion-padding {
+  background-size: cover; /* Ajusta la imagen para cubrir todo el modal */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  color: white; /* Si necesitas cambiar el color del texto para mejor visibilidad */
+  padding: 20px; /* Ajusta el padding si es necesario */
+  text-align: center;
+  background-color: burlywood;
+}
+
+
