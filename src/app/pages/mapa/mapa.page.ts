@@ -57,10 +57,10 @@ export class MapaPage implements OnInit, AfterViewInit {
       apiKey: environment.apiKey,
       config: {
         center: {
-          lat: 33.6,
-          lng: -117.9,
+          lat: -17.918472,
+          lng: -64.522978,
         },
-        zoom: 8,
+        zoom: 11,
       },
     });
 
